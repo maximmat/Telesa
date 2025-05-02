@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telesa", "telesa\telesa.csproj", "{57C6449A-1C92-4309-9946-8B5935384BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57C6449A-1C92-4309-9946-8B5935384BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C6449A-1C92-4309-9946-8B5935384BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C6449A-1C92-4309-9946-8B5935384BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C6449A-1C92-4309-9946-8B5935384BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D8B57CD-D09B-4D6D-8ACC-0182F4A3C497}
+	EndGlobalSection
+EndGlobal
