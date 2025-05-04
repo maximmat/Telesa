@@ -8,7 +8,7 @@ namespace telesa
 {
     public class Dvanactisten : Teleso
     {
-        public Dvanactisten(double delkaHrany) : base(delkaHrany) { }
+        public Dvanactisten(double delkaHrany) : base(delkaHrany) { } //za pomoci base předání parametru delkaHrany rodičkovské třídě teleso
 
         protected override double Objem()
         {

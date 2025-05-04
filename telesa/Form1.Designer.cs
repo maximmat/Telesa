@@ -73,6 +73,7 @@
             // 
             // numericUpDown1
             // 
+            numericUpDown1.DecimalPlaces = 2;
             numericUpDown1.Location = new Point(12, 37);
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(120, 23);
@@ -125,7 +126,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(12, 63);
             label2.Name = "label2";
-            label2.Size = new Size(61, 15);
+            label2.Size = new Size(62, 15);
             label2.TabIndex = 8;
             label2.Text = "Tvar telesa";
             // 

@@ -18,11 +18,11 @@ namespace telesa
             this.delkaHrany = delkaHrany;
         }
 
-        protected abstract double Objem();
+        protected abstract double Objem(); //protected metoda na výpočet objemu, všichni potomci musí obsahovat
 
-        protected abstract double Povrch { get; }
+        protected abstract double Povrch { get; } //prottected getter na výpočet povrchu get = read only
 
-        public override string ToString()
+        public override string ToString() //tostring pro výpis do listboxu
         {
             return $"Hrana: {delkaHrany}, Objem: {Objem()}, Povrch: {Povrch}";
         }

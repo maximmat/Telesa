@@ -8,7 +8,7 @@ namespace telesa
 {
     public class Koule : Teleso
     {
-        public Koule(double polomer) : base(polomer) { }
+        public Koule(double polomer) : base(polomer) { } //za pomoci base předání parametru polomer rodičkovské třídě teleso
 
         protected override double Objem()
         {

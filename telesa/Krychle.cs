@@ -8,7 +8,7 @@ namespace telesa
 {
     public class Krychle : Teleso
     {
-        public Krychle(double delkaHrany) : base(delkaHrany) { }
+        public Krychle(double delkaHrany) : base(delkaHrany) { } //za pomoci base předání parametru delkaHrany rodičkovské třídě teleso
 
         protected override double Objem()
         {

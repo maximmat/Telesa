@@ -9,7 +9,7 @@ namespace telesa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string typ = "";
+            string typ = ""; //promìnná pro urèení vybraného tìlesa
             double delkaHrany = (double)numericUpDown1.Value;
 
             if (rbKrychle.Checked == true) typ = "krychle";
@@ -17,8 +17,8 @@ namespace telesa
             else if (rbDvanactisten.Checked == true) typ = "dvanactisten";
             else if (rbDvacetisten.Checked == true) typ = "dvacetisten";
 
-            var nTeleso = TelesoFactory.MakeTeleso(typ, delkaHrany);
-            listBox1.Items.Add(nTeleso);
+            var nTeleso = TelesoFactory.MakeTeleso(typ, delkaHrany); 
+            listBox1.Items.Add(nTeleso); //pøidání vygenerovaného tìlesa do listBoxu
         }
     }
 }
